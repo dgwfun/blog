@@ -1,18 +1,6 @@
-nav:
-  - text: 首页
-    url: index.html
-  - text: 分类目录 
-    url: navigations/categories.html
-  - text: 文章归档
-    url: navigations/archives.html
-  - text: 联系我
-    url: navigations/contact.html
-  - text: 友情链接
-    url: navigations/links.html
 theme: jekyll-theme-cayman
 username: dgwfun
 baseurl: /blog
 markdown: redcarpet
 title: 人生苦短
-description: 人生到处知何似，应似飞鸿踏雪泥
 disqusname: dgw
