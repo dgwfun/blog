@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+username: dgwfun
+baseurl: /blog
+markdown: redcarpet
+title: 人生苦短
+description: 人生到处知何似，应似飞鸿踏雪泥
+disqusname: dgw
