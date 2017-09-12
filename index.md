@@ -54,7 +54,7 @@ if(handler){
 >项目框架还实现了一整套单元测试框架。所有的service和controller中都有一个test函数，用来写整个类的单元测试代码。初始在ServiceMgr中根据启动配置通过startServiceTest来启动测试流程。startServiceTest将会遍历执行所有注册的service中的test函数。而在ActorService中将创建2个测试Actor并遍历Actor中所有Controller的test函数。\
 >test函数为每个类的测试单元，测试范围会覆盖类中的每一个函数，如下面是shopController中的部分单元测试代码：
 
-```
+```js
 test()
 {
     actor.getPakageController().removeAllGoods();
